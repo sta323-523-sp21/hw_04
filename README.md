@@ -100,7 +100,7 @@ inspection for each restaurant since 2019.
 Chicken wars\! Define Chick-fil-A’s turf as the interior of one mile
 outside the convex hull of its restaurants in Wake County. Are any
 Zaxby’s restaurants outside of Chick-fil-A’s turf? If so, which
-stores. You may answer this question by producing a table or by
+stores? You may answer this question by producing a table or by
 providing a clear visualization showing the restaurants, convex hull,
 and one mile buffer. Give a 1-2 sentence answer to the questions.
 

@@ -15,7 +15,7 @@ Restaurants are subject to routine and follow-up inspections. As part of
 these inspections, a score is generated that encapsulates the
 cleanliness of the restaurant. A score of 100 is the best. Wake County
 makes this data publicly available and partners with Yelp as a
-participant in Yelp’s LIVES program. You can read more about Yelp
+participant in Yelp’s LIVES program. You can read more about Yelp’s
 program [here](https://www.yelp.com/healthscores).
 
 ## Data
@@ -23,10 +23,10 @@ program [here](https://www.yelp.com/healthscores).
 The data in `data/` is from [Wake County Open
 Data](https://data-wake.opendata.arcgis.com). There are two shapefiles
 in that folder. They are boundary files that correspond to the Wake
-County line and zip codes. The `restaurants.rds` contains information on
-inspections, violations, and the location of restaurants in Wake County.
-This was put together using the three “Restaurant - Yelp” datasets on
-the Open Data site.
+County line and zip codes. The `restaurants.rds` file contains
+information on inspections, violations, and the location of restaurants
+in Wake County. This was put together using the three “Restaurant -
+Yelp” datasets on the Open Data site.
 
 Get started by reading in each of the shapefiles with the following
 code.

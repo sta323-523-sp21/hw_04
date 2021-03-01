@@ -1,0 +1,40 @@
+---
+title: "Homework 04"
+author: "Team name: member 1, member 2, member 3, ..."
+date: ""
+output: html_document
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = FALSE, warning = FALSE,
+                      comment = "#>", highlight = TRUE,
+                      fig.align = "center")
+```
+
+## Packages
+
+```{r packages}
+library(tidyverse)
+library(sf)
+library(janitor)
+library(lubridate)
+library(patchwork)
+```
+
+## Data
+
+```{r data}
+wake <- st_read("data/Wake_County_Line.shp", quiet = TRUE)
+zips <- st_read("data/Zip_Codes.shp", quiet = TRUE)
+restaurants <- read_rds("data/restaurants.rds")
+```
+
+## Tasks
+
+#### Task 1
+
+```{r task_1}
+
+```
+
+
